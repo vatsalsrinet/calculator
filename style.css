@@ -1,0 +1,54 @@
+#main {
+    display: flex;
+    margin: auto;
+    width: 400px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius:10px;
+}
+
+#display {
+    width: 400px;
+    height: 70px;
+    background-color: black;
+    border-radius: 10px 10px 0px 0px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 40px;
+    box-sizing: border-box;
+    width: 100px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0;
+    border-width: 1px;
+    font-size: xx-large;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.functions{
+    display: flex;
+    gap:0px;
+    flex-direction: column;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.equals{
+    box-sizing: border-box;
+    width: 300px;
+    border-radius: 0px 0px 0px 10px;
+    border: 1px solid black;
+}
